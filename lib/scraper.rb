@@ -4,7 +4,7 @@ require 'pry'
 
 require_relative './course.rb'
 
-class 
+class Scraper
   
   
   def get_page
@@ -28,5 +28,5 @@ class
   
 end
 
-# Scraper.new.get_page
+Scraper.new.get_page
 
